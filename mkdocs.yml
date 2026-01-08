@@ -1,6 +1,7 @@
 site_name: Bilal Mahmood's Portfolio
 site_description: Bilal Mahmood's Portfolio Documentation
 site_author: Bilal Mahmood
+site_url: https://sahibbilal.github.io/mkdocs-portfolio/
 
 nav:
   - Home: index.md
@@ -20,8 +21,15 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
   footer:
     - This documentation site is built using [MkDocs](https://www.mkdocs.org/) with the [Material theme](https://squidfunk.github.io/mkdocs-material/).
+extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/sahibbilal
