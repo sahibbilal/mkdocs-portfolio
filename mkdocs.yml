@@ -1,50 +1,38 @@
-site_name: Bilal Mahmood's Portfolio
-site_description: Bilal Mahmood's Portfolio Documentation
-site_author: Bilal Mahmood
-
-nav:
-  - Home: index.md
-  - Blogs: blogs.md
-  - SETUP: setup.md
+site_name: Moez's Data Science Portfolio
+site_description: Portfolio showcasing data science, analysis, and AI development skills
+site_author: Moez
 
 theme:
   name: material
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: blue
+      accent: blue
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: blue
+      accent: blue
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
-  footer:
-    - This documentation site is built using [MkDocs](https://www.mkdocs.org/) with the [Material theme](https://squidfunk.github.io/mkdocs-material/).
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/sahibbilal
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/mbilalmahmood/
-    - icon: fontawesome/brands/facebook
-      link: https://web.facebook.com/bilalmahmood.dev
-extra_css:
-  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
-  - assets/extra.css
+        name: Switch to system preference
 
-markdown_extensions:
-  - pymdownx.highlight
-  - pymdownx.superfences
-  - pymdownx.tabbed
-  - attr_list
-  - md_in_html
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - tables
-  - admonition
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+extra:
+  fontawesome: true
 
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Skills: skills.md
+  - Projects: projects.md
+  - Contact: contact.md
