@@ -21,9 +21,13 @@ pip install mkdocs mkdocs-material
 
 ### 2. <i class="fas fa-folder-open"></i> Navigate to the MkDocs directory
 
+Navigate to your project directory where `mkdocs.yml` is located:
+
 ```bash
-cd 02_portfolio/0.1_mkdocs
+cd path/to/your/mkdocs-project
 ```
+
+**Note:** Replace `path/to/your/mkdocs-project` with the actual path to your MkDocs project directory (the folder containing `mkdocs.yml`).
 
 ### 3. <i class="fas fa-server"></i> Start the MkDocs development server
 
@@ -126,11 +130,4 @@ If you see YAML errors:
 If MkDocs doesn't start:
 - Reinstall dependencies: `py -m pip install --upgrade mkdocs mkdocs-material`
 - Check Python version: `py --version` (should be 3.x)
-
-### <i class="fas fa-question-circle"></i> Getting Help
-
-If you're still experiencing issues:
-1. <i class="fas fa-book"></i> Check the [MkDocs documentation](https://www.mkdocs.org/)
-2. <i class="fab fa-github"></i> Search [MkDocs GitHub issues](https://github.com/mkdocs/mkdocs/issues)
-3. <i class="fas fa-comments"></i> Ask in the [MkDocs discussions](https://github.com/mkdocs/mkdocs/discussions)
 
