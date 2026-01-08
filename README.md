@@ -32,8 +32,6 @@ mkdocs-portfolio/
 │   │   ├── automating-wordpress-python.md
 │   │   ├── future-wordpress-ai.md
 │   │   └── production-grade-wordpress-code.md
-│   ├── assets/
-│   │   └── extra.css     # Custom CSS
 │   └── profile.png       # Profile picture
 ├── mkdocs.yml            # MkDocs configuration
 └── README.md             # This file
